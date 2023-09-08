@@ -1,5 +1,15 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+}
+
 .container {
     border-style: solid;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
