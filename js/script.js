@@ -17,7 +17,7 @@ function createGrid() {
             div.style.flex = `1 0 ${(500) / numberOfSides}px`;
             div.classList.add('grid');
             div.addEventListener('mouseover', function() {
-                div.style.backgroundColor = 'black';
+                div.style.backgroundColor = 'red';
             })
     
             container.appendChild(div);
